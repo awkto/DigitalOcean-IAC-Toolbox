@@ -4,7 +4,7 @@ resource "digitalocean_droplet" "nextcloud-vm" {
   name   = "nextcloud-lab-iac"
   region = "syd1"              # Desired region
   size   = "s-2vcpu-4gb"       # Droplet size
-  #ssh_keys = [ 38147259, 37150778 ]
+  ssh_keys = [ 38147259, 37150778 ]
 }
 
 resource "digitalocean_record" "nextcloud" {

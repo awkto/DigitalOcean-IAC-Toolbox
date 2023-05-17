@@ -2,3 +2,5 @@ set-env-var.sh
 .terraform.lock.hcl
 .terraform
 terraform.tfstate
+.terraform.tfstate*
+terraform.tfstate*
