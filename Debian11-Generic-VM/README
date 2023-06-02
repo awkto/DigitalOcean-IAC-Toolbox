@@ -1,0 +1,12 @@
+first declare your digitalocean token as an environment variable
+- copy the template script, remove template from the name
+   cp set-env-var-template.sh set-env-var.sh 
+- add your digital ocean token into the new file
+- run the shell script 
+
+next, create a tfvars file for the same do token
+- copy the template for tfvars, remove template from the name
+   cp terraform.tfvars-template terraform.tfvars
+- edit the new file and place your do token in there
+
+
